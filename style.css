@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&family=Lovers+Quarrel&display=swap');
 .card-cover{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:clamp(18px,4vw,54px);background:#eadbc6;perspective:1800px;overflow:hidden}
 .card-cover[hidden]{display:none}
 .closed-card{position:relative;width:min(920px,94vw);height:min(720px,88svh);overflow:hidden;background:var(--paper);border:1px solid #b99b7c;box-shadow:0 28px 80px #54293635;transform-origin:left center;transform-style:preserve-3d}
@@ -92,4 +92,5 @@
 }
 
 /* Botanical A & H wedding monogram */
+.hero h1{font-family:'Lovers Quarrel','Cormorant Garamond',cursive;letter-spacing:0;font-weight:400}
 .monogram-defs{position:absolute;width:0;height:0;overflow:hidden}.wedding-monogram{display:block;width:100%;height:100%;overflow:visible;color:#b27724}.monogram-ring,.monogram-stem,.monogram-branch{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.monogram-branch{stroke-width:1.45}.monogram-a,.monogram-h{fill:currentColor;font-family:Georgia,'Times New Roman',serif;font-size:100px}.monogram-amp{fill:currentColor;font-family:'Cormorant Garamond',Georgia,serif;font-size:104px;font-style:italic}.ribbon-seal .wedding-monogram{width:66px;height:66px;margin:-7px auto -5px;color:#f5d8ae}.monogram{display:block;width:66px;height:66px;font-size:0;letter-spacing:0}.monogram .wedding-monogram{color:#9d651e}.closing-monogram{display:block;width:150px;height:150px;margin:35px auto -20px;font-size:0;color:#eac7a6}.closing-monogram .wedding-monogram{color:inherit}@media(max-width:700px){.monogram{width:56px;height:56px}.ribbon-seal .wedding-monogram{width:58px;height:58px}}
